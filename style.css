@@ -57,7 +57,7 @@ body {
 /*DOS COLUMNAS */
 .Primera {
     flex: 0 0 40%;
-    background-color: #2a2a2a8f;
+    background-color: #2a2a2a9a;
     gap: 15px; height: fit-content;
     padding: 20px; margin: 0 10px;
     border-right: 8px solid #f16c9a; border-bottom: 5px solid #f16c9a;
@@ -67,7 +67,7 @@ body {
 
 
 .Segunda {
-    background-color: #2a2a2a23;
+    background-color: #2a2a2aaf;
     gap: 15px; height: fit-content;
     padding: 25px;  margin: 0 1px;
     border-right: 8px solid #eeeeee; border-bottom: 5px solid #eeeeee;
@@ -279,7 +279,7 @@ body {
             display: flex;
             align-items: left;
             justify-content: left;
-            padding-left: 20px;
+            padding-left: 1px;
             font-size: 22px;
             margin-bottom: 30px;
         }
@@ -316,13 +316,13 @@ body {
     background-color: #f9c5d385; 
     padding: 10px; 
     display: flex;
-    flex-direction: column; /* Apila los 3 bloques principales */
+    flex-direction: column; 
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
 
-        /* 2. BARRAS SUPERIOR E INFERIOR */
+ /* 2. BARRAS SUPERIOR E INFERIOR */
 .barra {
     flex: 1; 
     padding: 10px;
@@ -338,10 +338,10 @@ body {
 
         /* 3. TABLERO CENTRAL (Contenedor Grid) */
 .tablero {
-    flex: 3; /* Ocupa 3 partes de la altura (es más alto que las barras) */
+    flex: 3; 
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas del mismo ancho */
-    grid-template-rows: repeat(3, 1fr); /* Crea 3 filas de la misma altura */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
     gap: 2px; 
 }
 
